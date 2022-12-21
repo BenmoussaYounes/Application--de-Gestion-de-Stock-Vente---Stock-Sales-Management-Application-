@@ -4,8 +4,6 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class Fenetre1 extends JFrame{
-
-
     private JButton GestionDeStock;
     private JButton gestionDeVenteButton;
     private JButton recuButton;

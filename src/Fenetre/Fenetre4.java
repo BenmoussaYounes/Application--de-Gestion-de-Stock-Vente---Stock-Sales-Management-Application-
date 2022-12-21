@@ -26,8 +26,8 @@ public class Fenetre4 extends JFrame{
         try {
             Connection c = DriverManager.getConnection(
                     "jdbc:mysql://localhost/ges?serverTimezone=UTC",
-                    "younes",
-                    "younesSQL");
+                    "root",
+                    "younesSql");
             Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
             ResultSet r = s.executeQuery(
                     "SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
@@ -108,8 +108,8 @@ public class Fenetre4 extends JFrame{
                         int Number;
                         Connection c = DriverManager.getConnection(
                                 "jdbc:mysql://localhost/ges?serverTimezone=UTC",
-                                "younes",
-                                "younesSQL");
+                                "root",
+                                "younesSql");
                         Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                         ResultSet DeleteTable = s.executeQuery(
                                 "SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");

@@ -222,8 +222,8 @@ public class Fenetre3 extends JFrame{
                     String Article = String.valueOf(Casquette.getSelectedItem());
                     Connection c = DriverManager.getConnection(
                             "jdbc:mysql://localhost/ges?serverTimeZone=UTC",
-                            "younes",
-                            "younesSQL");
+                            "root",
+                            "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery(
                             "SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
@@ -259,8 +259,8 @@ public class Fenetre3 extends JFrame{
                     String Article = String.valueOf(LeHaut.getSelectedItem());
                     Connection c = DriverManager.getConnection(
                             "jdbc:mysql://localhost/ges?ServerTimeZone=UTC",
-                            "younes",
-                            "younesSQL"
+                            "root",
+                            "younesSql"
                     );
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
                     ResultSet r=s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
@@ -292,8 +292,8 @@ public class Fenetre3 extends JFrame{
                     String Quantite = textField12.getText();
                     Connection c = DriverManager.getConnection(
                             "jdbc:mysql://localhost/ges?ServerTimeZone=UTC",
-                            "younes",
-                            "younesSQL"
+                            "root",
+                            "younesSql"
 
                     );
                     Statement s=c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
@@ -326,8 +326,8 @@ public class Fenetre3 extends JFrame{
                 try {
                     Connection c = DriverManager.getConnection(
                             "jdbc:mysql://localhost/ges?ServerTimeZone=UTC",
-                            "younes",
-                            "younesSQL"
+                            "root",
+                            "younesSql"
                     );
                     Statement s=c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
                     ResultSet r=s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");

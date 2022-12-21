@@ -85,8 +85,8 @@ public class Fenetre2 extends JFrame{
                 }
             });
             Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC",
-                    "younes",
-                    "younesSQL"
+                    "root",
+                    "younesSql"
             );
             Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
             ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
@@ -163,8 +163,8 @@ public class Fenetre2 extends JFrame{
 
                     try {
                         Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                                , "younes"
-                                , "younesSQL");
+                                , "root"
+                                , "younesSql");
                         Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                         ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                         String Prix = null;
@@ -224,8 +224,8 @@ public class Fenetre2 extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                            , "younes"
-                            , "younesSQL");
+                            , "root"
+                            , "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                     String Prix = null;
@@ -281,8 +281,8 @@ public class Fenetre2 extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                            , "younes"
-                            , "younesSQL");
+                            , "root"
+                            , "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                     String Prix = null;
@@ -338,8 +338,8 @@ public class Fenetre2 extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                            , "younes"
-                            , "younesSQL");
+                            , "root"
+                            , "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                     String Prix = null;
@@ -395,8 +395,8 @@ public class Fenetre2 extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                            , "younes"
-                            , "younesSQL");
+                            , "root"
+                            , "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                     String Prix = null;
@@ -452,8 +452,8 @@ public class Fenetre2 extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                            , "younes"
-                            , "younesSQL");
+                            , "root"
+                            , "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                     String Prix = null;
@@ -509,8 +509,8 @@ public class Fenetre2 extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                            , "younes"
-                            , "younesSQL");
+                            , "root"
+                            , "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                     String Prix = null;
@@ -566,8 +566,8 @@ public class Fenetre2 extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                            , "younes"
-                            , "younesSQL");
+                            , "root"
+                            , "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                     String Prix = null;
@@ -623,8 +623,8 @@ public class Fenetre2 extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                            , "younes"
-                            , "younesSQL");
+                            , "root"
+                            , "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                     String Prix = null;
@@ -680,8 +680,8 @@ public class Fenetre2 extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                            , "younes"
-                            , "younesSQL");
+                            , "root"
+                            , "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                     String Prix = null;
@@ -737,8 +737,8 @@ public class Fenetre2 extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                            , "younes"
-                            , "younesSQL");
+                            , "root"
+                            , "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                     String Prix = null;
@@ -794,8 +794,8 @@ public class Fenetre2 extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     Connection c = DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC"
-                            , "younes"
-                            , "younesSQL");
+                            , "root"
+                            , "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet r = s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Number` FROM `stock`");
                     String Prix = null;

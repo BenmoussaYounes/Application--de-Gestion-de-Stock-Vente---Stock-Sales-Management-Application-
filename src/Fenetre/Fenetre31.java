@@ -34,8 +34,8 @@ public class Fenetre31 extends JFrame {
             String[][] Data = new String[30][6];
             //
             Connection c= DriverManager.getConnection("jdbc:mysql://localhost/ges?ServerTimeZone=UTC",
-                    "younes",
-                    "younesSQL"
+                    "root",
+                    "younesSql"
             );
             Statement s=c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
             ResultSet r=s.executeQuery("SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`,`Totale`, `Number` FROM `Panier`"
@@ -111,8 +111,8 @@ public class Fenetre31 extends JFrame {
                     int Number;
                     Connection c = DriverManager.getConnection(
                             "jdbc:mysql://localhost/ges?serverTimezone=UTC",
-                            "younes",
-                            "younesSQL");
+                            "root",
+                            "younesSql");
                     Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     ResultSet DeleteTable = s.executeQuery(
                             "SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Totale`, `Number` FROM `panier` ");
@@ -137,8 +137,8 @@ public class Fenetre31 extends JFrame {
                         int Number;
                         Connection c = DriverManager.getConnection(
                                 "jdbc:mysql://localhost/ges?serverTimezone=UTC",
-                                "younes",
-                                "younesSQL");
+                                "root",
+                                "younesSql");
                         Statement s = c.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                         ResultSet DeleteTable = s.executeQuery(
                                 "SELECT `Article`, `Couleur`, `Taille`, `Prix`, `Quantite`, `Totale`, `Number` FROM `panier` ");
