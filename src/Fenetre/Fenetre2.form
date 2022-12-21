@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Fenetre.Fenetre2">
+  <scrollpane id="91c8e" binding="pan0">
+    <constraints>
+      <xy x="20" y="20" width="1186" height="713"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="27dc6" binding="pan2" layout-manager="GridLayoutManager" row-count="9" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints/>
+        <properties>
+          <background color="-5317909"/>
+          <font name="DialogInput" size="14" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1c7b6" class="javax.swing.JLabel" binding="B2">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/cap.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="676e6" class="javax.swing.JLabel" binding="B3">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/cap2.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ac34d" class="javax.swing.JButton" binding="achetéButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="88" height="33"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="4764d" class="javax.swing.JButton" binding="achetéButton1" default-binding="true">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="88" height="33"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="50f5c" class="javax.swing.JButton" binding="achetéButton4" default-binding="true">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="88" height="33"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="377b3" class="javax.swing.JLabel" binding="B1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/casquette.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="333b3" class="javax.swing.JLabel" binding="B5">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/PinkT.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="68a29" class="javax.swing.JLabel" binding="B6">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/Tshir E.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="edc71" class="javax.swing.JButton" binding="achetéButton5" default-binding="true">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="88" height="34"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="ff0a9" class="javax.swing.JButton" binding="achetéButton3" default-binding="true">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="88" height="34"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="fd13b" class="javax.swing.JButton" binding="achetéButton2" default-binding="true">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="88" height="34"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="c8541" class="javax.swing.JLabel" binding="B11">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/pant1.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7c90c" class="javax.swing.JLabel" binding="B10">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/short.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c784a" class="javax.swing.JLabel" binding="B9">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/pant2.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a8406" class="javax.swing.JButton" binding="achetéButton10" default-binding="true">
+            <constraints>
+              <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="6b424" class="javax.swing.JButton" binding="achetéButton9" default-binding="true">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="dea05" class="javax.swing.JButton" binding="achetéButton8" default-binding="true">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="b377d" class="javax.swing.JLabel" binding="B7">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/veste-en-jean.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="70f56" class="javax.swing.JLabel" binding="B13">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/Shoes.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b58de" class="javax.swing.JButton" binding="achetéButton12" default-binding="true">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="27b76" class="javax.swing.JLabel" binding="B14">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/soli.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="fd1b1" class="javax.swing.JLabel" binding="B15">
+            <constraints>
+              <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/boot.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="966b8" class="javax.swing.JButton" binding="achetéButton13" default-binding="true">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="b4318" class="javax.swing.JButton" binding="achetéButton14" default-binding="true">
+            <constraints>
+              <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12434067"/>
+              <font name="Fira Code" size="14" style="1"/>
+              <text value="acheté"/>
+            </properties>
+          </component>
+          <component id="9d8a" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8d5f8" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="48cd9" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="8fd77" class="javax.swing.JTextField" binding="textField6">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="14fc6" class="javax.swing.JTextField" binding="textField5">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="b3e83" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="29191" class="javax.swing.JTextField" binding="textField8" default-binding="true">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="99bff" class="javax.swing.JTextField" binding="textField9" default-binding="true">
+            <constraints>
+              <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="b97fd" class="javax.swing.JTextField" binding="textField10" default-binding="true">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="7ace0" class="javax.swing.JTextField" binding="textField12">
+            <constraints>
+              <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="d9635" class="javax.swing.JTextField" binding="textField11">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="cbeae" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11908534"/>
+              <editable value="false"/>
+              <font name="Fira Code" size="11" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="24a17" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="DialogInput" size="16" style="1"/>
+              <model>
+                <item value="GestionDeVente"/>
+                <item value="GestionDeStock"/>
+                <item value="Recu"/>
+                <item value="Menu"/>
+              </model>
+            </properties>
+          </component>
+          <component id="8e34b" class="javax.swing.JButton" binding="allerAuPanierButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4139022"/>
+              <font name="DialogInput" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <icon value="Images/Menu/cart.png"/>
+              <text value="Aller au Panier"/>
+            </properties>
+          </component>
+          <component id="63027" class="javax.swing.JButton" binding="menuButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4139022"/>
+              <font name="DialogInput" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Menu"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </scrollpane>
+</form>

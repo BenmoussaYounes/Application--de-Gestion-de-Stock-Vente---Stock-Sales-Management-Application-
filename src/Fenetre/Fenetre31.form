@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Fenetre.Fenetre31">
+  <grid id="27dc6" binding="pan1" layout-manager="GridLayoutManager" row-count="15" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="17" y="23" width="642" height="712"/>
+    </constraints>
+    <properties>
+      <background color="-2892565"/>
+      <font name="DialogInput" size="16" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="3a52d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="98" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10654338"/>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Prenom"/>
+        </properties>
+      </component>
+      <component id="38112" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="176" height="128"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="Images/Menu/Recu.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ecd4d" class="javax.swing.JTextField" binding="détailsDeLaFacturationTextField" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="2" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10654338"/>
+          <editable value="false"/>
+          <font name="Monospaced" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Détails de la facturation"/>
+        </properties>
+      </component>
+      <component id="accd8" class="javax.swing.JTextField" binding="pannierTextField" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11908534"/>
+          <editable value="false"/>
+          <font name="Fira Code" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Pannier "/>
+        </properties>
+      </component>
+      <component id="fce7f" class="javax.swing.JTextField" binding="informationPersonelleTextField" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="176" height="33"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11908534"/>
+          <editable value="false"/>
+          <font name="Fira Code" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Information Personelle "/>
+        </properties>
+      </component>
+      <scrollpane id="af3a3" binding="pan2">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="214" height="427"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10654338"/>
+          <enabled value="true"/>
+          <font name="DialogInput" size="14" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none" title=""/>
+        <children>
+          <component id="8861b" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="false"/>
+              <background color="-2892565"/>
+              <fillsViewportHeight value="false"/>
+              <font name="Fira Code" size="12" style="1"/>
+              <foreground color="-16777216"/>
+              <showVerticalLines value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="680d5" class="javax.swing.JTextField" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="304" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4c77d" class="javax.swing.JButton" binding="supprimerDePanierButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="98" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10654338"/>
+          <font name="DialogInput" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Supprimer De Panier"/>
+        </properties>
+      </component>
+      <component id="cf21a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="98" height="22"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="DialogInput" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Totalle a paye "/>
+        </properties>
+      </component>
+      <component id="31abe" class="javax.swing.JButton" binding="valideButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10654338"/>
+          <font name="DialogInput" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <icon value="Images/Menu/true.png"/>
+          <text value="Valide "/>
+        </properties>
+      </component>
+      <component id="47a76" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="304" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11908534"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="DialogInput" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="             "/>
+        </properties>
+      </component>
+      <component id="37e3c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="98" height="18"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10654338"/>
+          <font name="Fira Code" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=" Nom"/>
+        </properties>
+      </component>
+      <component id="557f7" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="304" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6d7c8" class="javax.swing.JButton" binding="retourButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="94" height="37"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4139022"/>
+          <enabled value="true"/>
+          <font name="DialogInput" size="16" style="1"/>
+          <text value="Retour"/>
+        </properties>
+      </component>
+      <component id="10f55" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="214" height="37"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10654338"/>
+          <editable value="false"/>
+          <font name="DialogInput" size="16" style="1"/>
+          <model>
+            <item value="Recu"/>
+            <item value="Menu"/>
+            <item value="GestionDeVente"/>
+            <item value="GestionDeStock"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a1986" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11908534"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
